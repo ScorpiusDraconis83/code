@@ -58,7 +58,7 @@ jobs:
       run: zip -r ../site.zip .
       working-directory: /home/runner/work/opensource.microsoft.com/opensource.microsoft.com/_site
     #       actions/upload-artifact/v2 on 11/4/2021
-    - uses: actions/upload-artifact@6fc84b101e3160d153b2b53314fa13f02a36ae96
+    - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f
       name: "Store the site as an artifact"
       with:
         name: website
