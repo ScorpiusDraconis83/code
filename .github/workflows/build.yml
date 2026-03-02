@@ -27,7 +27,7 @@ jobs:
       run: pwd
     - name: Package registry login
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@28218f9b04b4f3f62068d7b6ce6ca5b26e35336c
+      uses: docker/login-action@3227f5311cb93ffd14d13e65d8cc400d30f4dd8a
       with:
         registry: ${{ env.REGISTRY }}
         username: ${{ github.repository_owner }}
