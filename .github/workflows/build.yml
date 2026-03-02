@@ -21,7 +21,7 @@ jobs:
           #password: ${{ secrets.GITHUB_TOKEN }}
     steps:
     #       actions/checkout@v2 on 11/4/2021
-    - uses: actions/checkout@230611dbd0eb52da1e1f4f7bc8bb0c3a339fc8b7
+    - uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98
       name: "Check it out"
     - name: "Startup"
       run: pwd
