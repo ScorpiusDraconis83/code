@@ -17,7 +17,7 @@ jobs:
     #       actions/checkout@v2
     - uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98
     #       docker/build-push-action@v1
-    - uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8
+    - uses: docker/build-push-action@8913706d4eb4f40f0a9bb76943d0893e39dd0ffb
       with:
         dockerfile: Dockerfile.builder
         tags: latest
