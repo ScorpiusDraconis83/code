@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.4.0"
 gem "minima", "~> 2.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -10,7 +10,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem 'jekyll-octicons', '~> 10.0'
   gem 'jekyll-seo-tag'
-  gem "jekyll-feed", "~> 0.15.0"
+  gem "jekyll-feed", "~> 0.17.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
