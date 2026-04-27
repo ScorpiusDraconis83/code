@@ -30,7 +30,7 @@
     "yaml": "2.8.3"
   },
   "dependencies": {
-    "@primer/css": "^14.3.0",
+    "@primer/css": "^22.0.0",
     "gsap": "3.15.0",
     "primer-core": "^6.7.0",
     "timeago": "1.6.7"
