@@ -1,4 +1,4 @@
-FROM jekyll/builder:4.2.2 as build
+FROM jekyll/builder:4.4.1 as build
 WORKDIR /tmp
 COPY . /tmp
 
